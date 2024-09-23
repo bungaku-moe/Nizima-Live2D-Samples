@@ -1,0 +1,478 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup7",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup7",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup7",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup7",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup7",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup3",
+			"Name": "体の回転　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup3",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroup3",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup3",
+			"Name": "重心移動"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup3",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamArmChangeL",
+			"GroupId": "ParamGroup4",
+			"Name": "左前腕の切替"
+		},
+		{
+			"Id": "ParamArmL01Sub",
+			"GroupId": "ParamGroup4",
+			"Name": "1左上腕差分"
+		},
+		{
+			"Id": "ParamArmL02Sub",
+			"GroupId": "ParamGroup4",
+			"Name": "2左前腕差分"
+		},
+		{
+			"Id": "ParamHandLSub",
+			"GroupId": "ParamGroup4",
+			"Name": "3左手首差分回転"
+		},
+		{
+			"Id": "ParamHandL02Sub",
+			"GroupId": "ParamGroup4",
+			"Name": "4左手向き"
+		},
+		{
+			"Id": "ParamHandLPosSub",
+			"GroupId": "ParamGroup4",
+			"Name": "5左手差分位置"
+		},
+		{
+			"Id": "ParamArmR01",
+			"GroupId": "ParamGroup5",
+			"Name": "1右上腕"
+		},
+		{
+			"Id": "ParamArmR02",
+			"GroupId": "ParamGroup5",
+			"Name": "2右前腕の回転"
+		},
+		{
+			"Id": "ParamHandR",
+			"GroupId": "ParamGroup5",
+			"Name": "3右手の回転"
+		},
+		{
+			"Id": "ParamFingerR",
+			"GroupId": "ParamGroup5",
+			"Name": "右指開閉"
+		},
+		{
+			"Id": "ParamHairFluffy",
+			"GroupId": "ParamGroup6",
+			"Name": "髪ふわ"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroup6",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "ParamHairFront02",
+			"GroupId": "ParamGroup6",
+			"Name": "髪揺れ 前2"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "ParamGroup6",
+			"Name": "髪揺れ　横"
+		},
+		{
+			"Id": "ParamHairSide02",
+			"GroupId": "ParamGroup6",
+			"Name": "髪揺れ 横2"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamGroup6",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "ParamHairStray",
+			"GroupId": "ParamGroup6",
+			"Name": "髪揺れ ハネ"
+		},
+		{
+			"Id": "ParamHairStray02",
+			"GroupId": "ParamGroup6",
+			"Name": "髪揺れ ハネ2"
+		},
+		{
+			"Id": "ParamJerryPosX",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ位置X"
+		},
+		{
+			"Id": "ParamJerryPosY",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ位置Y"
+		},
+		{
+			"Id": "ParamJerryRoll",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ回転"
+		},
+		{
+			"Id": "ParamJerryX",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲX"
+		},
+		{
+			"Id": "ParamJerryY",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲY"
+		},
+		{
+			"Id": "ParamJerryBreath",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ呼吸"
+		},
+		{
+			"Id": "ParamJerryForm",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ変形"
+		},
+		{
+			"Id": "ParamJerryLeg",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ足揺れ"
+		},
+		{
+			"Id": "ParamJerrySwingX",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ揺れ横"
+		},
+		{
+			"Id": "ParamJerrySwingY",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ揺れ縦"
+		},
+		{
+			"Id": "ParamJerryEye",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ目パチ"
+		},
+		{
+			"Id": "ParamJerrySmile",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ笑顔"
+		},
+		{
+			"Id": "ParamJerryFX",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲ収納"
+		},
+		{
+			"Id": "ParamJerryFXPosX",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲエフェクトの位置X"
+		},
+		{
+			"Id": "ParamJerryFXPosY",
+			"GroupId": "ParamGroup8",
+			"Name": "クラゲエフェクトの位置Y"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup2",
+			"Name": "仮パラ"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup2",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup2",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup2",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup2",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup2",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup2",
+			"Name": "照れ"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "頭"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "表情"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "体"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "左腕"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "右腕"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "揺れ"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "クラゲ"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "未使用表情"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part29",
+			"Name": "*くらげ"
+		},
+		{
+			"Id": "PartCore",
+			"Name": "コア"
+		},
+		{
+			"Id": "Part2",
+			"Name": "まゆ毛"
+		},
+		{
+			"Id": "Part3",
+			"Name": "右目"
+		},
+		{
+			"Id": "Part4",
+			"Name": "左目"
+		},
+		{
+			"Id": "Part5",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part6",
+			"Name": "口"
+		},
+		{
+			"Id": "Part7",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part9",
+			"Name": "頭"
+		},
+		{
+			"Id": "Part21",
+			"Name": "左腕_差分"
+		},
+		{
+			"Id": "Part10",
+			"Name": "左腕_デフォルト"
+		},
+		{
+			"Id": "Part11",
+			"Name": "上半身"
+		},
+		{
+			"Id": "Part28",
+			"Name": "右腕差分"
+		},
+		{
+			"Id": "Part12",
+			"Name": "右腕"
+		},
+		{
+			"Id": "Part",
+			"Name": "下半身"
+		},
+		{
+			"Id": "Part13",
+			"Name": "後ろ髪"
+		},
+		{
+			"Id": "Part14",
+			"Name": "下絵"
+		},
+		{
+			"Id": "Part30",
+			"Name": "*顔差分"
+		},
+		{
+			"Id": "Part8",
+			"Name": "ヘアバンド"
+		},
+		{
+			"Id": "Part22",
+			"Name": "差分腕"
+		},
+		{
+			"Id": "Part20",
+			"Name": "左前腕"
+		},
+		{
+			"Id": "PC",
+			"Name": "PC"
+		},
+		{
+			"Id": "Part23",
+			"Name": "左手差分_前"
+		},
+		{
+			"Id": "Part24",
+			"Name": "PC蓋"
+		},
+		{
+			"Id": "Part25",
+			"Name": "PC内側"
+		},
+		{
+			"Id": "Part26",
+			"Name": "左手差分_奥"
+		},
+		{
+			"Id": "Part15",
+			"Name": "小指"
+		},
+		{
+			"Id": "Part16",
+			"Name": "薬指"
+		},
+		{
+			"Id": "Part17",
+			"Name": "中指"
+		},
+		{
+			"Id": "Part18",
+			"Name": "人差し指"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamHairSide",
+			"ParamHairSide02"
+		],
+		[
+			"ParamJerryPosX",
+			"ParamJerryPosY"
+		],
+		[
+			"ParamJerryFXPosX",
+			"ParamJerryFXPosY"
+		]
+	]
+}
